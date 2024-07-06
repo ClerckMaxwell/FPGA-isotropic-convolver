@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="TB_TOP_PIX_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="TB_TOP_PIX" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="373391667fs"></ZoomStartTime>
+      <ZoomEndTime time="419641668fs"></ZoomEndTime>
+      <Cursor1Time time="427750000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="294"></NameColumnWidth>
+      <ValueColumnWidth column_width="167"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="27" />
+   <wave_markers>
+      <marker time="392950000" label="" />
+   </wave_markers>
+   <wvobject type="divider" fp_name="divider418">
+      <obj_property name="label">INPUT</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="BkColor">#008080</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_TOP_PIX/clock" type="logic">
+      <obj_property name="ElementShortName">clock</obj_property>
+      <obj_property name="ObjectShortName">clock</obj_property>
+      <obj_property name="CustomSignalColor">#00FF00</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_TOP_PIX/reset" type="logic">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+      <obj_property name="CustomSignalColor">#00FF00</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_TOP_PIX/pixel[24]" type="logic">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">[24]</obj_property>
+      <obj_property name="ObjectShortName">[24]</obj_property>
+      <obj_property name="label">go</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_TOP_PIX/rgb2gray" type="logic">
+      <obj_property name="ElementShortName">rgb2gray</obj_property>
+      <obj_property name="ObjectShortName">rgb2gray</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_TOP_PIX/cmd" type="array">
+      <obj_property name="ElementShortName">cmd[1:0]</obj_property>
+      <obj_property name="ObjectShortName">cmd[1:0]</obj_property>
+      <obj_property name="CustomSignalColor">#00FF00</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_TOP_PIX/pixelR" type="array">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">pixelR[7:0]</obj_property>
+      <obj_property name="ObjectShortName">pixelR[7:0]</obj_property>
+      <obj_property name="CustomSignalColor">#FF0000</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="label">pixel_inR[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_TOP_PIX/pixelG" type="array">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">pixelG[7:0]</obj_property>
+      <obj_property name="ObjectShortName">pixelG[7:0]</obj_property>
+      <obj_property name="label">pixel_inG[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_TOP_PIX/pixelB" type="array">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">pixelB[7:0]</obj_property>
+      <obj_property name="ObjectShortName">pixelB[7:0]</obj_property>
+      <obj_property name="CustomSignalColor">#0000FF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="label">pixel_inB[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_TOP_PIX/clk_period" type="other">
+      <obj_property name="ElementShortName">clk_period</obj_property>
+      <obj_property name="ObjectShortName">clk_period</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider426">
+      <obj_property name="label">FSM</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="BkColor">#008080</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_TOP_PIX/uut/V3_FSM/is_reading" type="logic">
+      <obj_property name="ElementShortName">is_reading</obj_property>
+      <obj_property name="ObjectShortName">is_reading</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_TOP_PIX/uut/V3_FSM/valid" type="logic">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">valid</obj_property>
+      <obj_property name="ObjectShortName">valid</obj_property>
+      <obj_property name="label">valid_int</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_TOP_PIX/uut/V3_FSM/finish" type="logic">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">finish</obj_property>
+      <obj_property name="ObjectShortName">finish</obj_property>
+      <obj_property name="label">finish_int_FSM</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_TOP_PIX/uut/V3_FSM/state" type="other">
+      <obj_property name="ElementShortName">state</obj_property>
+      <obj_property name="ObjectShortName">state</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_TOP_PIX/uut/V3_FSM/stato" type="array">
+      <obj_property name="ElementShortName">stato[3:0]</obj_property>
+      <obj_property name="ObjectShortName">stato[3:0]</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider427">
+      <obj_property name="label">BUFFER_DECODE</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="BkColor">#008080</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_TOP_PIX/uut/DECOD_BUFFER/stato_p" type="array">
+      <obj_property name="ElementShortName">stato_p[3:0]</obj_property>
+      <obj_property name="ObjectShortName">stato_p[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_TOP_PIX/uut/DECOD_BUFFER/pix5" type="array">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">pix5[7:0]</obj_property>
+      <obj_property name="ObjectShortName">pix5[7:0]</obj_property>
+      <obj_property name="CustomSignalColor">#FF0000</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="label">CENTRAL_R</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_TOP_PIX/uut/\FOR_RGB(1)\/DECOD_BUFFER/pix5" type="array">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">pix5[7:0]</obj_property>
+      <obj_property name="ObjectShortName">pix5[7:0]</obj_property>
+      <obj_property name="label">CENTRAL_G</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_TOP_PIX/uut/\FOR_RGB(2)\/DECOD_BUFFER/pix5" type="array">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">pix5[7:0]</obj_property>
+      <obj_property name="ObjectShortName">pix5[7:0]</obj_property>
+      <obj_property name="CustomSignalColor">#0000FF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="label">CENTRAL_B</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider418">
+      <obj_property name="label">OUTPUT</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="BkColor">#008080</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_TOP_PIX/valid" type="logic">
+      <obj_property name="ElementShortName">valid</obj_property>
+      <obj_property name="ObjectShortName">valid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_TOP_PIX/finish" type="logic">
+      <obj_property name="ElementShortName">finish</obj_property>
+      <obj_property name="ObjectShortName">finish</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_TOP_PIX/pix_out_R" type="array">
+      <obj_property name="ElementShortName">pix_out_R[7:0]</obj_property>
+      <obj_property name="ObjectShortName">pix_out_R[7:0]</obj_property>
+      <obj_property name="CustomSignalColor">#FF0000</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_TOP_PIX/pix_out_G" type="array">
+      <obj_property name="ElementShortName">pix_out_G[7:0]</obj_property>
+      <obj_property name="ObjectShortName">pix_out_G[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_TOP_PIX/pix_out_B" type="array">
+      <obj_property name="ElementShortName">pix_out_B[7:0]</obj_property>
+      <obj_property name="ObjectShortName">pix_out_B[7:0]</obj_property>
+      <obj_property name="CustomSignalColor">#0000FF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+</wave_config>
