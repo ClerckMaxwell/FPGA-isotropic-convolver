@@ -1,2 +1,5 @@
 # FPGA-isotropic-convolver
-A totally low-level description of an isotropic convolver for 32x32 RGB images with 8-bit pixels and four types of edge management. The circuit has been implemented and tested on prototype boards and works perfectly at a clock_period of 2.9 ns. it is also possible to convert an image from RGB to gray scale.
+A totally low-level description of an isotropic convolver for 32x32 RGB images with 8-bit pixels and four types of edge management. The circuit has been implemented and tested on prototype boards and works perfectly at a clock_period of 2.9 ns. it is also possible to convert an image from RGB to gray scale. To observe the results you have to use matlab sheets which I attach.
+A booth multiplier and carry saves have been described to do the convolution. There is an FSM and a buffer decoding block that allows you to do edge management. there is an RGB2GRAY block that converts the image from RGB to gray scale. 
+Throughput of 3 pixels at 8 bits every 2.9 ns after an initial latency of 30*clock_period if not converting to gray while 40*clock_period if converting to gray. Power consumption is on the order of 200-250 mW depending on whether the conversion block is active or not.
+A detailed description of RGB2GRAY will be done in another repository, as I am developing a better block.
